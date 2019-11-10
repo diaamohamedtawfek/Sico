@@ -144,7 +144,7 @@ public class Singel_item extends AppCompatActivity {
         masedegs.put("date", currentDateandTime);
 
 
-        databaseReference.child(id).setValue(masedegs).addOnCompleteListener(new OnCompleteListener<Void>() {
+        databaseReference.child(idspo).setValue(masedegs).addOnCompleteListener(new OnCompleteListener<Void>() {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
