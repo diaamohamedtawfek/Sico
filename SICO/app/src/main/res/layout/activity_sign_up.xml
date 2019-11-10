@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    tools:context=".UI.Sign_up">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="56dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Email"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <EditText
+                android:inputType="textEmailAddress"
+                android:textColor="#000"
+                android:id="@+id/ed_username_signup"
+                android:hint="User Name"
+                android:textSize="16sp"
+                android:lineSpacingExtra="3.3sp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/ed_login"
+                android:drawableLeft="@drawable/ic_user_name"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <TextView
+                android:layout_marginTop="36dp"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Password"
+                android:textAllCaps="true"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+            <EditText
+                android:textColor="#000"
+                android:id="@+id/ed_password_signup"
+                android:hint="User Name"
+                android:textSize="16sp"
+                android:lineSpacingExtra="3.3sp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:background="@drawable/ed_login"
+                android:drawableLeft="@drawable/ic_look"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/bu_Sinup_signup"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/busin"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:lineSpacingExtra="3.3sp"
+                android:text="SIGN UP"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
