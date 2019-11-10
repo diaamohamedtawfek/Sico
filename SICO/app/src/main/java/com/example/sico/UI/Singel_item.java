@@ -149,6 +149,7 @@ public class Singel_item extends AppCompatActivity {
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()) {
                     Toast.makeText(Singel_item.this, "Send successful", Toast.LENGTH_SHORT).show();
+                    finish();
 
                 } else {
                     // Toast.makeText(MasedgeChat.this, "Send not successful", Toast.LENGTH_SHORT).show();
